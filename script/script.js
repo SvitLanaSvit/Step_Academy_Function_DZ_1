@@ -101,7 +101,7 @@ function NOD () {
       x += y;
     }
     return x;
-  }
+}
 
 //3
 function maxDigitRecursion(n){
@@ -134,6 +134,7 @@ function multipliers(n, div = 2){
         return;
     }
 }
+
 //6
 function getFib(n){
     if(n == 0 || n == 1) return n;
